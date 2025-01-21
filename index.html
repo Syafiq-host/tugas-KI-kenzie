@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Website Informasi dan Statistik Kunjungan Industri Terbaik">
+    <meta name="author" content="Tim Kunjungan Industri">
+    <title>Presentasi Kunjungan Industri KI</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f4f4f9;
+            color: #333;
+        }
+
+        header {
+            background: linear-gradient(135deg, #3b82f6, #6366f1);
+            color: #fff;
+            padding: 20px 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: background 0.3s;
+        }
+
+        header:hover {
+            background: linear-gradient(135deg, #6366f1, #3b82f6);
+        }
+
+        header h1 {
+            text-align: center;
+            margin: 0;
+            font-size: 2.5em;
+            transition: transform 0.3s;
+        }
+
+        header h1:hover {
+            transform: scale(1.1);
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            margin: 10px 0 0;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 1.1em;
+            transition: color 0.3s, transform 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #ffde59;
+            transform: scale(1.1);
+        }
+
+        .hero {
+            text-align: center;
+            padding: 60px 20px;
+            background: #6366f1;
+            color: #fff;
+            transition: background 0.3s;
+        }
+
+        .hero:hover {
+            background: #3b82f6;
+        }
+
+        .hero h2 {
+            font-size: 2.2em;
+            margin-bottom: 15px;
+            transition: transform 0.3s;
+        }
+
+        .hero h2:hover {
+            transform: translateY(-10px);
+        }
+
+        .hero p {
+            font-size: 1.2em;
+        }
+
+        .content {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 20px;
+        }
+
+        .section {
+            margin-bottom: 60px;
+        }
+
+        .section h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+            text-align: center;
+            transition: color 0.3s;
+        }
+
+        .section h2:hover {
+            color: #3b82f6;
+        }
+
+        .stats {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .stat-card {
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+            flex: 1 1 250px;
+            max-width: 300px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .stat-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        .stat-card h3 {
+            font-size: 1.5em;
+            margin: 10px 0;
+        }
+
+        .stat-card p {
+            font-size: 1.1em;
+        }
+
+        .images {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            margin: 40px 0;
+        }
+
+        .images img {
+            max-width: 100%;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .images img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        footer {
+            background: #3b82f6;
+            color: #fff;
+            text-align: center;
+            padding: 20px 10px;
+            margin-top: 40px;
+            transition: background 0.3s;
+        }
+
+        footer:hover {
+            background: #6366f1;
+        }
+
+        footer a {
+            color: #ffde59;
+            text-decoration: none;
+            font-weight: bold;
+            transition: text-decoration 0.3s;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Kunjungan Industri</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="chlorine.html">Chlorine</a></li>
+                <li><a href="unikom.html">Unikom</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+
+    <section class="hero" id="home">
+       
+    </section>
+
+    <section class="content section" id="statistics">
+        <h2>Kunjungan Industri</h2>
+        <div class="stats">
+            <div class="stat-card">
+                <img src="images.png" alt="Statistik Kunjungan Industri Sektor Teknologi" style="width:100%; border-radius:8px;">
+            </div>
+            <div class="stat-card">
+                <img src="images (1).png" alt="Kenaikan Kunjungan di Sektor Manufaktur" style="width:100%; border-radius:8px;">
+            </div>
+            <div class="stat-card">
+                <img src="imagis.jpg" alt="Kepuasan Peserta Kunjungan" style="width:100%; border-radius:8px;">
+            </div>
+        </div>
+    </section>
+    
+
+    <section class="content section" id="insights">
+        <h2></h2>
+        <p>Industri yang paling banyak dikunjungi tahun ini adalah sektor teknologi dengan peningkatan signifikan sebesar 30% dibandingkan tahun lalu. Faktor utama adalah kebutuhan edukasi teknologi modern.</p>
+    </section>
+
+    <section class="content section">
+        <h2>Galeri</h2>
+        <div class="images">
+            <img src="WhatsApp Image 2025-01-21 at 06.13.09.jpeg" alt="Gambar Kunjungan 3">
+            <img src="WhatsApp Image 2025-01-20 at 22.40.34 (1).jpeg" alt="Gambar Kunjungan 1">
+            
+            <img src="WhatsApp Image 2025-01-20 at 22.40.34.jpeg" alt="Gambar Kunjungan 2">
+           
+        </div>
+    </section>
+    
+
+    <footer id="contact">
+        <p>Hubungi kami di: <a href="mailto:o@kunjunganindustri.com">info@kunjunganindustri.com</a></p>
+        <p>&copy; 2025 Kunjungan Industri. Semua hak dilindungi.</p>
+    </footer>
+</body>
+</html>
